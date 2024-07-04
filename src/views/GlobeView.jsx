@@ -153,13 +153,13 @@ const StyledLinkedin = styled("div")(({theme}) => ({
     position: 'fixed',
     bottom: '-20%',
     transform: 'scale(0.06)',
-    right: '-5%',
+    left: '-5%',
     cursor: 'pointer'
 }));
 
 const StyledGitHub = styled("div")(({theme}) => ({
     position: 'fixed',
-    bottom: '-20%',
+    bottom: '-10%',
     transform: 'scale(0.06)',
     left: '-5%',
     '-webkit-filter':' invert(100%)',
