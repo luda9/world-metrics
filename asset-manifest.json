@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/world-metrics/static/css/main.18dd74cc.css",
+    "main.js": "/world-metrics/static/js/main.b8d42ec3.js",
+    "static/media/sky.png": "/world-metrics/static/media/sky.51b096abd273b7ddc491.png",
+    "static/media/map.jpg": "/world-metrics/static/media/map.da273783100dfbfd07c0.jpg",
+    "index.html": "/world-metrics/index.html",
+    "main.18dd74cc.css.map": "/world-metrics/static/css/main.18dd74cc.css.map",
+    "main.b8d42ec3.js.map": "/world-metrics/static/js/main.b8d42ec3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18dd74cc.css",
+    "static/js/main.b8d42ec3.js"
+  ]
+}
