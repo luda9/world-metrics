@@ -104,6 +104,7 @@ const lineColor = (population) => {
           ref={globeEl}
           globeImageUrl={map}
           backgroundImageUrl={sky}
+          hexBinPointsData={testData}
           htmlElementsData={[country]}
           htmlAltitude='altitude'
           htmlTransitionDuration={2000}
@@ -159,6 +160,14 @@ const lineColor = (population) => {
           ref={globeEl}
           globeImageUrl={map}
           backgroundImageUrl={sky}
+          hexBinPointsData={testData}
+          hexBinPointLat={d => d.latlng[0]}
+          hexBinPointLng={d => d.latlng[1]}
+          hexBinPointWeight={10}
+          hexAltitude={0}
+          hexTopColor={() => '#ffffff'}
+          hexSideColor={(d) => lineColor(d.points[0].population)}
+          hexLabel={d => `${numberWithCommas(d.points[0].name.common)} <br /> ${numberWithCommas(d.points[0].population)}`}
         />
         )
       )}
